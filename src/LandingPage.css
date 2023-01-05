@@ -1,0 +1,11 @@
+.landing-page_overlay {
+    background: black;
+}
+  
+.landing-page_image-overlay::before {
+    background: rgba(0,0,0,0.5);
+}
+  
+.landing-page_image {
+    max-height: 80%;
+}
