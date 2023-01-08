@@ -1,11 +1,9 @@
-.landing-page_overlay {
-    background: black;
+.landing-page {
+    background-color: rgb(6, 53, 53);
+    width: 100vw;
 }
-  
-.landing-page_image-overlay::before {
-    background: rgba(0,0,0,0.5);
+
+.landing-page__image {
+    height: 100vh;
 }
-  
-.landing-page_image {
-    max-height: 80%;
-}
+

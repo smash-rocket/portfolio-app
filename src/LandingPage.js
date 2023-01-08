@@ -5,10 +5,8 @@ import './LandingPage.css';
 
 export default function LandingPage() {
   return (
-      <>
-        <div className="landing-page_image-overlay">
-            <img src={shannon} className="landing-page_image" alt="hero" />
-        </div>
-      </>
+    <div className="landing-page">
+      <img className="landing-page__image" src={shannon} />
+    </div>
   );
 }

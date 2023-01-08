@@ -1,13 +1,14 @@
 import React from 'react';
-import LandingPage from './LandingPage';
+import ContentArea from './ContentArea';
 import SideBar from './SideBar';
+
 import './App.css';
 
 export default function App() {
   return (
-    <div className="app_content">
+    <div className="app__content">
       <SideBar />
-      <LandingPage />
+      <ContentArea />
     </div>
   );
 }
